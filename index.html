@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 d-flex justify">
+            <div class="text-logo">
+              <a href="./index.html">KMI</a>
+            </div>
+            <div class="open-navbar lg-none sm-dlock">
+              <span onclick="openNav()"><i class="bi bi-list"></i></span>
+            </div>
+            <div class="sidenav" id="mySidenav">
+              <a
+                href="javascript:void(0)"
+                class="closebtn sm-dlock"
+                onclick="closeNav()"
+                >&times;</a
+              >
+              <div class="navbar-link">
+                <a href="#" class="active">Home</a>
+                <a href="#" class="text-link">About</a>
+                <a href="#" class="text-link">Skill</a>
+                <a href="#" class="text-link">Project</a>
+                <a href="#" class="text-link">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-sm-9">
+            <div class="my-intro sm-text">
+              <span class="subheading sm-text">HELLO!</span>
+              <h1>
+                I am
+                <span class="text-type" id="typed2"
+                  >Khubaib Muhammad Ibrahim</span
+                >
+              </h1>
+              <p>
+                Front-end web development is the development of the graphical
+                user interface of a website through the use of HTML, CSS, and
+                JavaScript so users can view and interact with that website
+              </p>
+              <button class="btn1">Resume</button>
+              <button class="btn2">My Work</button>
+            </div>
+          </div>
+          <div class="col-lg-7 col-sm-12">
+            <div class="my-img">
+              <img src="./assets/persson3.png" alt="my-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="about-img">
+              <img src="./assets/person4.png" alt="my-img1" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-intro">
+              <h2>ABOUT ME</h2>
+              <p>
+                Hello there! I'm a web designer, and I'm very passionate and
+                dedicated to my work. With 5 years experience as a web
+                developer, I have acquired the skills and knowledge necessary to
+                make your project a success. I enjoy every step of the design
+                process, from discussion and collaboration.
+              </p>
+            </div>
+            <div class="d-flex">
+              <div class="per-intro">
+                <h6>Name:<span>Khubaib_Ibrahim</span></h6>
+                <h6>Date of birth:<span>2003-07-11</span></h6>
+              </div>
+              <div class="pres-intro per-intro">
+                <h6>Address:<span>Soldier bazaar 3 number</span></h6>
+                <h6>Email:<span>khubaibibrahim062@gmail.com</span></h6>
+              </div>
+            </div>
+            <div class="my-phone">
+              <h6>Phone:<span>92+3149261740</span></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="skill">
+              <h2 class="text-center">My Skills</h2>
+              <p class="text-center">
+                Most common methods for designing websites that work well on
+                desktop is responsive <br />
+                and daptive design.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="my-skill">
+              <h6>HTML5<span class="percent">90%</span></h6>
+              <div class="Range">
+                <div class="range-2"></div>
+              </div>
+              <div class="my-skill-2">
+                <h6>CSS3<span class="percent ml">80%</span></h6>
+                <div class="Range">
+                  <div class="range-2 w"></div>
+                </div>
+              </div>
+              <div class="my-skill-3">
+                <h6>Jqurey<span class="percent ml-2">70%</span></h6>
+                <div class="Range">
+                  <div class="range-2 w-2"></div>
+                </div>
+              </div>
+              <div class="my-skill-4">
+                <h6>Bootstrap<span class="percent ml ml-3">85%</span></h6>
+                <div class="Range">
+                  <div class="range-2 w-3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="my-skill-5 my-skill">
+              <h6>JAVASCRIPT<span class="percent ml-2 ml-7">70%</span></h6>
+              <div class="Range">
+                <div class="range-2 w-2"></div>
+              </div>
+              <div class="my-skill-6 my-skill-2">
+                <h6>
+                  MYSQL & SQL SERVER (SSMS)<span class="percent ml-2 ml-6"
+                    >90%</span
+                  >
+                </h6>
+                <div class="Range">
+                  <div class="range-2"></div>
+                </div>
+              </div>
+              <div class="my-skill-6 my-skill-2">
+                <h6>PHP<span class="percent ml-2 ml-8">90%</span></h6>
+                <div class="Range">
+                  <div class="range-2"></div>
+                </div>
+              </div>
+              <div class="my-skill-6 my-skill-2">
+                <h6>LARAVEL<span class="percent ml-2 ml-9">90%</span></h6>
+                <div class="Range">
+                  <div class="range-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="contact skill">
+              <h2 class="text-center">Contact Me</h2>
+              <p class="text-center">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and <br />
+                Consonantia
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="add">
+              <div class="cir"><i class="bi bi-signpost-2-fill"></i></div>
+              <h6>ADDRESS</h6>
+              <p>Soldier bazaar 3 number flat # 402 floor 4</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="add">
+              <div class="cir"><i class="bi bi-telephone-fill"></i></div>
+              <h6>CONTACT NUMBER</h6>
+              <p>(92) + 3149261740</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="add">
+              <div class="cir"><i class="bi bi-send-fill"></i></div>
+              <h6>EMAIL</h6>
+              <p>khubaibibrahim062@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="google-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d57881.32492254817!2d67.05315840000002!3d24.9462784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1744613118513!5m2!1sen!2s"
+                width="500"
+                height="380"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="cont-form">
+              <form class="form-control">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="USER NAME"
+                />
+                <input
+                  type="text"
+                  name="email"
+                  id="name"
+                  placeholder="USER EMAIL"
+                />
+                <textarea
+                  class="form-text"
+                  name="message"
+                  id="message"
+                  placeholder="USER MESSAGE"
+                  maxlength="200"
+                  cols="53"
+                  rows="6"
+                ></textarea>
+              </form>
+              <button id="submit">SUBMIT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center d-flex">
+            <div class="copy-right d-flex">
+              <i>&copy;</i>
+              <div class="vr"></div>
+              <h6>KhubaibGhanchi</h6>
+              <div class="vr"></div>
+              <p>All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+    <script src="./js/main.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-JobWAqYk5CSjWuVV3mxgS+MmccJqkrBaDhk8SKS1BW+71dJ9gzascwzW85UwGhxiSyR7Pxhu50k+Nl3+o5I49A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"
+      integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      var typed2 = new Typed("#typed2", {
+        strings: [
+          "Front-End Back-End Developer",
+          "Khubaib<br>Muhammad Ibrahim",
+        ],
+        typeSpeed: 100,
+        backSpeed: 50,
+        fadeOut: true,
+        loop: true,
+        cursorChar: "",
+      });
+    </script>
+  </body>
+</html>
