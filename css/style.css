@@ -605,11 +605,11 @@ button {
   .btn2{
     position: absolute;
     margin-top: 266px;
-    margin-left: 30px;
+    margin-left: 40px;
     width: 54%;
   }
   .my-img{
-    margin-top: 70px;
+    margin-top: 9px;
     width: 100%;
   }
 }
