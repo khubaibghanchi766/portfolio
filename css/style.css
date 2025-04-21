@@ -609,7 +609,7 @@ button {
     width: 54%;
   }
   .my-img{
-    margin-top: -70px;
+    /* margin-top: -70px; */
     width: 100%;
   }
 }
