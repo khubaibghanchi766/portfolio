@@ -578,39 +578,42 @@ button {
     margin-top: 0px;
     color: var(--color05);
   }
-  .navbar-link a{
+  .navbar-link a {
     display: block;
     margin: 40px 0px;
   }
-  .sm-text{
+  .sm-text {
     text-align: center;
   }
-  .my-intro h1{
+  .my-intro h1 {
     line-height: 30px;
     font-size: 28px;
     margin-right: -90px;
   }
-  .my-intro p{
+  .my-intro p {
     color: #424242;
     margin: 130px 0px;
     margin-right: -70px;
     font-size: 14px;
   }
-  .btn1{ 
+  .btn1 {
     position: absolute;
     margin-top: 266px;
-    margin-left: -82px;
+    margin-left: -95px;
     width: 54%;
   }
-  .btn2{
+  .btn2 {
     position: absolute;
     margin-top: 266px;
     margin-left: 40px;
     width: 54%;
   }
-  .my-img{
+  .my-img {
     margin-top: 9px;
     width: 100%;
   }
+  .about-intro h2::before {
+    top: 128%;
+    left: 11.3%;
+  }
 }
-
