@@ -531,6 +531,7 @@ button {
   }
   .container {
     width: 95%;
+    height: min-content;
     max-width: 740px;
     margin: 0 auto;
     padding-left: 15px;
@@ -613,7 +614,7 @@ button {
     width: 100%;
   }
   .about-intro h2::before {
-    top: 108%;
+    top: 138%;
     left: 11.3%;
   }
 }
