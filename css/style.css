@@ -599,7 +599,7 @@ button {
   .btn1 {
     position: absolute;
     margin-top: 266px;
-    margin-left: -80px;
+    margin-left: -98px;
     width: 54%;
   }
   .btn2 {
@@ -613,7 +613,7 @@ button {
     width: 100%;
   }
   .about-intro h2::before {
-    top: 108%;
+    top: -108%;
     left: 11.3%;
   }
 }
