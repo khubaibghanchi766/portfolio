@@ -613,7 +613,7 @@ button {
     width: 100%;
   }
   .about-intro h2::before {
-    top: -108%;
+    top: 98%;
     left: 11.3%;
   }
 }
