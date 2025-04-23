@@ -615,5 +615,6 @@ button {
   }
   .about-intro h2::before {
     display: none;
+    content: ' ';
   }
 }
