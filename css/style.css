@@ -614,7 +614,6 @@ button {
     width: 100%;
   }
   .about-intro h2::before {
-    top: 128%;
-    left: 11.3%;
+    display: none;
   }
 }
