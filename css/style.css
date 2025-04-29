@@ -588,7 +588,7 @@ button {
   }
   .my-intro h1 {
     line-height: 30px;
-    font-size: 28px;
+    font-size: 26px;
     margin-right: -90px;
   }
   .my-intro p {
@@ -611,10 +611,141 @@ button {
   }
   .my-img {
     margin-top: 9px;
+  }
+  .my-img img {
     width: 100%;
   }
   .about-intro h2::before {
     display: none;
-    content: ' ';
+    content: " ";
+  }
+  .per-intro {
+    margin: 51px 0px;
+  }
+  .per-intro span{
+    font-size: 14px;
+  }
+  .pres-intro {
+    margin-left: 0px;
+  }
+  .my-phone {
+    margin: -151px 312px;
+    text-align: center;
+  }
+  .skill {
+    margin: 244px 0px;
+  }
+  .skill h2::before {
+    display: none;
+    content: " ";
+  }
+  .skill p {
+    margin: 10px 10px;
+  }
+  .my-skill {
+    margin: -200px 10px;
+  }
+  .percent {
+    position: absolute;
+    margin: 0px 155px;
+  }
+  .Range {
+    width: 220%;
+  }
+  .range-2 {
+    width: 90%;
+  }
+  .w {
+    width: 80%;
+  }
+  .w-2 {
+    width: 70%;
+  }
+  .w-3 {
+    width: 85%;
+  }
+  .ml {
+    margin: 0px 145px;
+  }
+  .ml-2 {
+    margin: 0px 98px;
+  }
+  .ml-3 {
+    margin: 0px 113px;
+  }
+  .ml-7 {
+    margin: 0px 46px;
+  }
+  .ml-6 {
+    position: absolute;
+    margin: 0px 78px;
+  }
+  .ml-8 {
+    margin-left: 181px;
+  }
+  .ml-9 {
+    margin-left: 140px;
+  }
+  .my-skill-5 {
+    margin: 110px 10px;
+  }
+  .sm-range {
+    width: 101%;
+  }
+  .sm-text-r {
+    margin-right: 100px;
+  }
+  .contact {
+    margin: 0px 0px;
+  }
+  .contact h2 {
+    margin-top: 0px;
+    font-size: 44px;
+  }
+  .contact p {
+    margin: 12px -3px;
+    font-size: 14px;
+  }
+  .cir {
+    margin-left: 115px;
+  }
+  .add p {
+    margin-right: 0px;
+    margin-left: 12px;
+  }
+  .google-map iframe {
+    width: 100%;
+    height: 500px;
+  }
+  .cont-form {
+    margin-top: -100px;
+  }
+  .form-control input {
+    height: 35px;
+    width: 100%;
+  }
+  .form-text {
+    width: 100%;
+  }
+  .copy-right {
+    margin: 10px 4px;
+  }
+  .footer {
+    margin-top: 30px;
+  }
+
+  .copy-right i {
+   font-size: 15px;
+  }
+  .vr{
+    margin: 0px 5px;
+  }
+  .copy-right h6{
+    font-size: 16px;
+    margin: -2px 0px;
+  }
+  .copy-right p{
+    font-size: 14px;
+    margin: 0px 0px;
   }
 }
